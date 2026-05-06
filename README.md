@@ -67,7 +67,12 @@ pip install -e .
 ```
 
 ### 3. Cấu hình biến môi trường
-Tạo file `.env` tại thư mục gốc và điền các thông tin sau:
+Sao chép file mẫu và điền các API Keys của bạn:
+```bash
+cp .env.example .env
+```
+
+Mở file `.env` và điền các thông tin sau:
 ```env
 OPENAI_API_KEY=your_openai_key
 TAVILY_API_KEY=your_tavily_key
