@@ -1,13 +1,13 @@
 # Báo cáo Đánh giá Hệ thống: Multi-Agent vs. Single-Agent
 
 ## 1. Tóm tắt điều hành
-Báo cáo này đánh giá hiệu năng và chất lượng của hệ thống **Multi-Agent Research Lab**. Chúng tôi so sánh mô hình **Single-Agent Baseline** truyền thống và hệ thống **Multi-Agent dựa trên LangGraph** với câu hỏi: *"Applications of GraphRAG in business"*.
+Báo cáo này đánh giá hiệu năng và chất lượng của hệ thống **Multi-Agent Research Lab**. Chúng tôi so sánh mô hình **Single-Agent Baseline** truyền thống và hệ thống **Multi-Agent dựa trên LangGraph** với câu hỏi: *"Tìm hiểu về ứng dụng của GraphRAG trong doanh nghiệp"*.
 
 ## 2. Số liệu định lượng
 
 | Chỉ số | Baseline (Single-Agent) | Hệ thống Multi-Agent | Sự khác biệt |
 | :--- | :--- | :--- | :--- |
-| **Thời gian phản hồi** | 9.29s | 36.65s | +294.5% |
+| **Thời gian phản hồi** | 12.53s | 36.65s | +294.5% |
 | **Chi phí ước tính** | $0.0100 | $0.0500 | +400.0% |
 | **Độ dài bài viết** | 3880 ký tự | 6357 ký tự | +63.8% |
 | **Số bước xử lý** | 1 | 4 | +3 bước |
